@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.avif" type="image/x-icon">
+
+</head>
+
+<body class="bod">
+    <header id="head">
+        <div class="toggle">
+        <input type="checkbox" id="darkmode-toggle"  />
+        <label for="darkmode-toggle">
+        </div>
+            <nav>
+                <ul>
+                    <li class="portline">Avinash's Portfolio</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Projects</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Contact Me</a></li>
+
+                </ul>
+            </nav>
+    </header>
+    <main class="mclass">
+        <div class="img">
+            <img src="port-removebg-preview.png" alt="">
+        </div>
+        <div class="font">
+            Hi,My Name is <span class="purple">Avinash</span>and Iam passionate on
+            <span id="element"></span>
+        </div>
+    </main>
+    <footer class="twofoot">
+        <div class="nav1">
+            <div class="seperation">
+            </div>
+            <div class="headfoot">
+                <h1>Skills</h1>
+            </div>
+            <div class="sep2">
+            </div>
+            <div class="line1">
+            </div>
+            <div class="line1font">
+                <h4>HTML</h4>
+            </div>
+            <div class="line2">
+            </div>
+            <div class="line2font">
+                <h4>CSS</h4>
+            </div>
+            <div class="line3">
+            </div>
+            <div class="line3font">
+                <h4>JavaScript</h4>
+            </div>
+            <div class="line4">
+            </div>
+            <div class="line4font">
+                <h4>MySQL</h4>
+            </div>
+        </div>
+
+        <div id="botfot">
+            <div class="footfont">
+                <h1 class="project">MY Projects</h1>
+            </div>
+            <div class="sepa2"></div>
+            <div class="botsep">
+                <ul>
+                    <li><a href="https://sureavinash.github.io/Netflix/" target="_blank" class="botse"><b>Netflix Clone</b></a></li>
+                    <li><a href="https://sureavinash.github.io/Portfolio/" target="_blank" class="botse"><b>Portfolio</b></a></li>
+                    <li><a href="https://sureavinash.github.io/vskweb/" target="_blank" class="botse"><b>Student & Employee Login Page</b></a>
+                    </li>
+                    <p> </p>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Frontend</i> Development.', `<i>Backend</i> Development.`],
+            typeSpeed: 47,
+        });
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(9, 9, 99);
+    padding: 19px;
+}
+
+nav ul .portline {
+    position: absolute;
+    left: 12vw;
+    top: -3vh;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+nav ul {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    gap: 44px;
+    list-style: none;
+    color: white;
+    font-size: large;
+    margin: -12px;
+    top: -2vh;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(230, 230, 250);
+
+}
+
+nav ul li a:hover {
+    color: #f15875;
+    font-size: 1.08rem
+}
+
+/* main {
+} */
+
+main {
+    /* position:absolute; */
+    background-color: rgb(2, 2, 41);
+    height: 110vh;
+}
+
+/* .img {
+    /* position: absolute; */
+
+/* } */
+
+main .img img {
+    /* max-width: 50%; */
+    /* max-height: 74%; */
+    width: 41vw;
+    height: 84vh;
+    /* mix-blend-mode: multiply; */
+    position: relative;
+    left: 55vw;
+    top: 50px;
+    background-position: center;
+    border-radius: 100%;
+
+}
+
+main .font {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 38vh;
+    left: 14vw;
+    font-size: 3rem;
+    width: 36vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+}
+
+main .font .purple {
+    position: absolute;
+    left: 18vw;
+    color: rgb(92, 9, 170);
+    top: 0.4vh;
+
+}
+
+.font #element {
+    color: rgb(115, 15, 209);
+
+}
+
+footer {
+    background-color: rgb(2, 2, 41);
+    height: 100vh;
+    position: absolute;
+    width: 99.1vw;
+
+}
+
+.nav1 {
+    position: relative;
+
+}
+
+footer .nav1 .seperation {
+    height: 5px;
+    width: 98.5vw;
+    /* max-width: 90vw; */
+    margin: auto;
+    background-color: #38375c;
+
+
+}
+
+.nav1 .sep2 {
+    height: 4px;
+    /* width: 60vw; */
+    max-width: 82vw;
+    margin: auto;
+    background-color: #23208a;
+    position: relative;
+    top: 22vh;
+}
+
+.headfoot {
+    color: lavender;
+    position: absolute;
+    left: 150px;
+    top: 16vh
+}
+
+.line1 {
+
+    height: 5px;
+    width: 5vw;
+    transform: rotate(90deg);
+    background-color: #23208a;
+    position: absolute;
+    top: 28vh;
+    left: 17vw;
+}
+
+.line1font h4 {
+
+    position: absolute;
+    color: #f15875;
+    top: 34vh;
+    left: 18vw;
+}
+
+.line2 {
+    height: 5px;
+    width: 5vw;
+    transform: rotate(90deg);
+    background-color: #23208a;
+    position: absolute;
+    top: 28vh;
+    left: 35vw;
+}
+
+.line2font h4 {
+
+    position: absolute;
+    color: #f15875;
+    top: 34vh;
+    left: 36vw;
+}
+
+.line3 {
+    height: 5px;
+    width: 5vw;
+    transform: rotate(90deg);
+    background-color: #23208a;
+    position: absolute;
+    top: 28vh;
+    left: 53vw;
+}
+
+.line3font h4 {
+
+    position: absolute;
+    color: #f15875;
+    top: 34vh;
+    left: 54vw;
+}
+
+.line4 {
+    height: 5px;
+    width: 5vw;
+    transform: rotate(90deg);
+    background-color: #23208a;
+    position: absolute;
+    top: 28vh;
+    left: 73vw;
+}
+
+.line4font h4 {
+
+    position: absolute;
+    color: #f15875;
+    top: 34vh;
+    left: 74vw;
+}
+
+#botfot {
+    position: absolute;
+
+
+}
+
+.footfont h1 {
+    color: lavender;
+    position: relative;
+    top: 53vh;
+    left: 11vw;
+}
+
+
+
+.sepa2 {
+    height: 4px;
+    /* width: 60vw; */
+    max-width: 82vw;
+    margin: auto;
+    background-color: #23208a;
+    position: relative;
+    top: 55vh;
+    left: 9vw;
+}
+
+.botsep ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 27px;
+    margin-top: 19px;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+/* .botsep ul li {
+    text-decoration: none;
+    list-style: none;
+    color: aqua;
+
+} */
+
+.botsep ul li a {
+    color: #f15875;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: 60vh;
+    left: 33vw;
+}
+
+.botsep ul li a:hover {
+    color: #f15875;
+    font-size: 1.08rem
+}
+
+
+/* scroll bar  */
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: rgb(2, 2, 41);
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(2, 2, 41);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(53, 138, 150);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(64, 6, 156);
+}
+
+/* toogle drakmode */
+label {
+    width: 67px;
+    height: 26px;
+    position: relative;
+    display: block;
+    background: #ebebeb;
+    border-radius: 200px;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    top: -11px;
+}
+
+label:after {
+    content: "";
+    width: 44px;
+    height: 25px;
+    position: absolute;
+    top: 0px;
+    left: 22px;
+    background: linear-gradient(180deg, #ffcc89, #d8860b);
+    border-radius: 180px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+}
+
+input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+input:checked+label {
+    background: #242424;
+}
+
+input:checked+label:after {
+    left: 2.8vw;
+    transform: translateX(-100%);
+    background: linear-gradient(180deg, #777, #3a3a3a);
+}
+
+label,
+label:after {
+    transition: 0.3s
+}
+
+label:active:after {
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+/* For screens smaller than 768px (typical smartphones) */
+@media screen and (max-width:420px) {
+    .toggle {
+        position: absolute;
+        top: 170vh;
+        z-index: 20;
+    }
+    label {
+        width: 75px;
+        
+
+    }
+    label:after {
+        width: 51px;
+        height: 26px;
+    
+    }
+    input:checked+label:after {
+        left: 10.5vw;
+
+    }
+    header{
+        padding: 37px;
+    }
+    nav ul {
+        gap: 9px;
+        font-size: small;
+        position: relative;
+        left: 4vw;
+        top: 1vh;
+    }
+
+    nav ul .portline {
+        font-size: 1.3rem;
+        position: absolute;
+        color: #0edda6;
+        left: -30px;
+        top: -11px;
+    }
+
+    main {
+        height: 70vh;
+        /* background-color: white; */
+    }
+
+    main .img img {
+        position: absolute;
+        height: 356px;
+        width: 356px;
+        top: 35vh;
+        /* right: 2vw; */
+        left: 3vh;
+        border-radius: 200px;
+    }
+
+    main .font {
+        width: 67vw;
+        /* display: flex; */
+        /* flex-direction: column; */
+        font-size: 2.6rem;
+        position: absolute;
+        left: 6.4vw;
+        top: 86px;
+    }
+
+    main .font .purple {
+        position: absolute;
+        left: 66vw;
+        font-size: 2.6rem;
+    }
+
+    main #element {
+        display: flex;
+        /* margin: 10px -3px; */
+        position: relative;
+        gap: 7px;
+        font-size: xx-large;
+    }
+
+    footer {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .nav1 .sep2 {
+        top: 25vh;
+        left: 4vw;
+    }
+
+    .line1 {
+        top: 29vh;
+        width: 15vw;
+        height: 5px;
+        transform: rotate(90deg);
+        background-color: #23208a;
+        position: absolute;
+        left: 15vw;
+    }
+
+    .line1font h4 {
+        top: 36vh;
+        left: 7vh;
+    }
+
+    .line2 {
+        top: 29vh;
+        width: 15vw;
+        height: 5px;
+        transform: rotate(90deg);
+        background-color: #23208a;
+        position: absolute;
+        left: 33vw;
+    }
+
+    .line2font h4 {
+        top: 36vh;
+        left: 16.6vh;
+    }
+
+    .line3 {
+        top: 29vh;
+        width: 15vw;
+        height: 5px;
+        transform: rotate(90deg);
+        background-color: #23208a;
+        position: absolute;
+        left: 58vw;
+    }
+
+    .line3font h4 {
+        top: 36vh;
+        left: 25vh
+    }
+
+    .line4 {
+        top: 29vh;
+        width: 15vw;
+        height: 5px;
+        transform: rotate(90deg);
+        background-color: #23208a;
+        position: absolute;
+        left: 81vw;
+    }
+
+    .line4font h4 {
+        top: 36vh;
+        left: 38vh;
+    }
+
+    .footfont h1 {
+        position: relative;
+        left: 12vh;
+        top: 53.6vh;
+        display: flex;
+
+    }
+
+    .botsep ul {
+        /* margin: 0px 46px; */
+        width: 72vw;
+
+    }
+
+    .botsep ul li {
+        /* padding: 10px; */
+        position: relative;
+        right: 21vw;
+        top: -4vh;
+    }
+
+    #botfot .sepa2 {
+        top: 55vh;
+        left: 15vw;
+    }
+
+    .stulast {
+
+        /* margin: 0 27px; */
+        /* position: relative;
+    right: 10vw; */
+    }
+
+    body {
+        /* width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;  */
+        /* overflow-x: hidden; */
+    }
+}
